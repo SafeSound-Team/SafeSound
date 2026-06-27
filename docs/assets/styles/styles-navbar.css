@@ -22,7 +22,7 @@ a{
 }
 
 
-/* ===================== HEADER / NAVBAR (Tu bloque de trabajo) ===================== */
+/* ===================== HEADER / NAVBAR ===================== */
 header{
     background-color: #FFFFFF;
     color: #282828;
@@ -69,7 +69,7 @@ nav ul a:hover{
 }
 
 
-/* ===================== COMPONENTES (Botón del Navbar) ===================== */
+/* ===================== COMPONENTES ===================== */
 .btn{
     border: none;
     border-radius: 8px;
@@ -95,7 +95,7 @@ nav ul a:hover{
 }
 
 
-/* ===================== RESPONSIVE (Solo Navbar) ===================== */
+/* ===================== RESPONSIVE ===================== */
 @media (max-width: 900px){
     nav ul{
         gap: 18px;
