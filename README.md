@@ -22,19 +22,12 @@ El navbar fue diseñado para proporcionar una navegación clara e intuitiva entr
 
 ## Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- Flexbox
+- HTML
+- CSS
 
 ## Objetivo
 
 El objetivo del navbar es mejorar la experiencia de navegación del usuario, ofreciendo acceso rápido a las principales secciones de la Landing Page de SafeSound mediante una interfaz sencilla, moderna y adaptable.
-
-## Autor
-
-- Tu nombre completo (Código UPC)
-
-## Curso
 
 IHC y Tecnologías Móviles — Sección 4791
 
