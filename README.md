@@ -26,17 +26,6 @@ El navbar fue diseñado para proporcionar una navegación clara e intuitiva entr
 - CSS3
 - Flexbox
 
-## Estructura de archivos
-
-```
-docs/
-│── index-navbar.html
-│── assets/
-│   └── styles/
-│       └── styles-navbar.css
-│── README.md
-```
-
 ## Objetivo
 
 El objetivo del navbar es mejorar la experiencia de navegación del usuario, ofreciendo acceso rápido a las principales secciones de la Landing Page de SafeSound mediante una interfaz sencilla, moderna y adaptable.
