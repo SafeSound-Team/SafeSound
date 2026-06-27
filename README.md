@@ -29,6 +29,3 @@ El navbar fue diseñado para proporcionar una navegación clara e intuitiva entr
 
 El objetivo del navbar es mejorar la experiencia de navegación del usuario, ofreciendo acceso rápido a las principales secciones de la Landing Page de SafeSound mediante una interfaz sencilla, moderna y adaptable.
 
-IHC y Tecnologías Móviles — Sección 4791
-
-Universidad Peruana de Ciencias Aplicadas (UPC)
