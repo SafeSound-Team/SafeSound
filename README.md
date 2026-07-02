@@ -17,8 +17,8 @@ sobre posibles riesgos mientras usan audífonos.
 ## Segmentos Objetivo
 1. **Peatones urbanos con audífonos** — especialmente estudiantes, trabajadores y 
    personas con discapacidad visual parcial.
-2. **Conductores, ciclistas y servicios de emergencia** — afectados por la falta 
-   de percepción auditiva de los peatones.
+2. **Personas con baja visión** — personas que requieren apoyo adicional para detectar
+   peligros fuera de rango de percepción auditiva.
 
 ## Características Principales
 - Detección de sonidos críticos en tiempo real (bocinas, sirenas, frenadas)
