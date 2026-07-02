@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo IA — SafeSound</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/Logo.png" alt="SafeSound logo">
+            <span>SafeSound</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html#hero">Inicio</a></li>
+                <li><a href="index.html#problemática">Problemática</a></li>
+                <li><a href="index.html#beneficios">Beneficios</a></li>
+                <li><a href="index.html#testimonios">Testimonios</a></li>
+                <li><a href="index.html#faq">Contáctanos</a></li>
+            </ul>
+        </nav>
+
+        <a href="ia.html" class="btn btn-primary btn-small">Modo IA</a>
+    </header>
+
+    <!-- IA HERO -->
+    <section id="ia-hero">
+        <div class="ia-hero-text">
+            <span class="ia-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4v5a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4Z"/><path d="M19 11a7 7 0 0 1-14 0"/><path d="M12 18v4"/></svg>
+                Módulo de simulación de IA
+            </span>
+            <h1>Tu app escucha por ti, sin escuchar tus conversaciones.</h1>
+            <p>Así es como SafeSound procesa el sonido de tu entorno en tiempo real: captura el audio, lo analiza con un modelo de IA dentro de tu propio celular y te alerta al instante ante un peligro. Ningún audio sale de tu dispositivo.</p>
+            <div class="hero-actions">
+                <a href="index.html#descargas" class="btn btn-primary btn-large">Descarga app</a>
+                <a href="#pipeline" class="link-action">Ver cómo funciona</a>
+            </div>
+        </div>
+        <div class="ia-hero-visual">
+            <div class="ia-orb-wrap">
+                <div class="ia-orb-ring r1"></div>
+                <div class="ia-orb-ring r2"></div>
+                <div class="ia-orb-ring r3"></div>
+                <div class="ia-orb-core">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 12a5 5 0 0 0-10 0c0 3.5-1.5 5-1.5 5h13S17 15.5 17 12Z"/><path d="M9.5 20a2.5 2.5 0 0 0 5 0"/><path d="M6 8c1-1.5 2-3 6-3s5 1.5 6 3"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA NUESTRA IA -->
+    <section id="como-funciona">
+        <h2>Cómo funciona nuestra IA al descargar la app</h2>
+        <p class="section-subtitle">Módulo de simulación: así procesa SafeSound cada sonido de tu entorno, paso a paso.</p>
+
+        <div class="ia-steps-grid">
+            <div class="ia-step-card">
+                <span class="ia-step-number">01</span>
+                <div class="ia-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/><path d="M12 18v4"/><path d="M9 22h6"/></svg>
+                </div>
+                <h3>Captura local (micrófono)</h3>
+                <p>El micrófono del celular escucha continuamente el entorno mientras usas la app.</p>
+            </div>
+
+            <div class="ia-step-card">
+                <span class="ia-step-number">02</span>
+                <div class="ia-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 0 7 4.5v.6A2.5 2.5 0 0 0 5 7.5v.6a2.5 2.5 0 0 0 0 4.8v.6A2.5 2.5 0 0 0 7 15.9v.6A2.5 2.5 0 0 0 9.5 19"/><path d="M14.5 2A2.5 2.5 0 0 1 17 4.5v.6a2.5 2.5 0 0 1 2 2.4v.6a2.5 2.5 0 0 1 0 4.8v.6a2.5 2.5 0 0 1-2 2.4v.6a2.5 2.5 0 0 1-2.5 2.5"/><path d="M9.5 2v17"/><path d="M14.5 2v17"/></svg>
+                </div>
+                <h3>Modelo de IA on-device</h3>
+                <p>Procesamiento interno, sin nube: el análisis ocurre directamente dentro del celular.</p>
+            </div>
+
+            <div class="ia-step-card">
+                <span class="ia-step-number">03</span>
+                <div class="ia-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h10"/><circle cx="19" cy="18" r="2"/></svg>
+                </div>
+                <h3>Clasificación de eventos</h3>
+                <p>Distingue entre sirena, bocina, frenada o vehículo eléctrico según el patrón sonoro.</p>
+            </div>
+
+            <div class="ia-step-card">
+                <span class="ia-step-number">04</span>
+                <div class="ia-step-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+                </div>
+                <h3>Detección y alertas sensoriales</h3>
+                <p>Te avisa mediante señales visuales y vibración apenas se confirma un riesgo cercano.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIPELINE -->
+    <section id="pipeline">
+        <h2>Del sonido a la alerta, en milisegundos</h2>
+        <p class="section-subtitle">Todo el recorrido ocurre dentro de tu celular, sin subir audio a ningún servidor.</p>
+
+        <div class="pipeline-flow">
+            <div class="pipeline-box">
+                <div class="pipeline-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1"/><path d="M12 18v4"/></svg>
+                </div>
+                <h4>Audio input</h4>
+                <span>Captura del entorno</span>
+            </div>
+
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+            </div>
+
+            <div class="pipeline-box">
+                <div class="pipeline-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 0 7 4.5v.6A2.5 2.5 0 0 0 5 7.5v.6a2.5 2.5 0 0 0 0 4.8v.6A2.5 2.5 0 0 0 7 15.9v.6A2.5 2.5 0 0 0 9.5 19"/><path d="M14.5 2A2.5 2.5 0 0 1 17 4.5v.6a2.5 2.5 0 0 1 2 2.4v.6a2.5 2.5 0 0 1 0 4.8v.6a2.5 2.5 0 0 1-2 2.4v.6a2.5 2.5 0 0 1-2.5 2.5"/></svg>
+                </div>
+                <h4>Modelo IA local</h4>
+                <span>Análisis on-device</span>
+            </div>
+
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+            </div>
+
+            <div class="pipeline-box">
+                <div class="pipeline-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/><path d="M11 8v3l2 2"/></svg>
+                </div>
+                <h4>Detección y confianza</h4>
+                <span>Clasificación del sonido</span>
+            </div>
+
+            <div class="pipeline-arrow">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+            </div>
+
+            <div class="pipeline-box is-alert">
+                <div class="pipeline-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+                </div>
+                <h4>¡Alerta!</h4>
+                <span>Vibración + aviso visual</span>
+            </div>
+        </div>
+
+        <p class="pipeline-note">Sin subida a la nube: el análisis completo ocurre dentro de tu celular.</p>
+
+        <div class="ia-split">
+            <div>
+                <div class="confidence-card">
+                    <h4>Ejemplo de análisis de IA</h4>
+                    <div class="confidence-row">
+                        <span class="confidence-label"><span class="confidence-dot"></span>Sirena</span>
+                        <div class="confidence-bar-wrap"><div class="confidence-bar" style="width:98%;"></div></div>
+                        <span class="confidence-pct">98%</span>
+                    </div>
+                    <div class="confidence-row">
+                        <span class="confidence-label"><span class="confidence-dot"></span>Bocina</span>
+                        <div class="confidence-bar-wrap"><div class="confidence-bar" style="width:95%;"></div></div>
+                        <span class="confidence-pct">95%</span>
+                    </div>
+                    <div class="confidence-row">
+                        <span class="confidence-label"><span class="confidence-dot medium"></span>Frenada brusca</span>
+                        <div class="confidence-bar-wrap"><div class="confidence-bar" style="width:89%;"></div></div>
+                        <span class="confidence-pct">89%</span>
+                    </div>
+                    <div class="confidence-row">
+                        <span class="confidence-label"><span class="confidence-dot low"></span>Vehículo eléctrico</span>
+                        <div class="confidence-bar-wrap"><div class="confidence-bar" style="width:82%;"></div></div>
+                        <span class="confidence-pct">82%</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="privacy-card">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 9 8 11 4.6-2 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+                    </div>
+                    <h3>Privacidad primero</h3>
+                    <p>SafeSound nunca almacena ni transmite tu audio. Todo el procesamiento de IA se queda en tu dispositivo.</p>
+                    <ul class="privacy-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            No graba conversaciones
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            Sin subida a servidores externos
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            Funciona incluso sin conexión
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="ia-cta">
+        <div class="panel">
+            <h2>Prueba el Modo IA en tu propio celular</h2>
+            <p>Descarga SafeSound y deja que la inteligencia artificial cuide de ti mientras disfrutas tu música.</p>
+            <div class="hero-actions">
+                <a href="index.html#descargas" class="btn btn-primary btn-large">Descargar app</a>
+                <a href="index.html#faq" class="link-action">Ver preguntas frecuentes</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>Ayuda</h4>
+                <p>Contacto</p>
+                <p>Políticas de privacidad</p>
+                <p>Términos y condiciones</p>
+            </div>
+            <div class="footer-col">
+                <h4>Redes sociales</h4>
+                <p>Facebook</p>
+                <p>TikTok</p>
+                <p>Instagram</p>
+                <p>X</p>
+            </div>
+            <div class="footer-col logo-col">
+                <span>SafeSound</span>
+            </div>
+        </div>
+        <p class="copyright">© SafeSound 2026. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
