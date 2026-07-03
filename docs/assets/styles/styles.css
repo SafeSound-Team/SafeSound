@@ -140,6 +140,7 @@ nav ul a:hover{
 section{
     margin-top: 140px;
     padding: 0 8%;
+    scroll-margin-top: 100px;
 }
 
 .eyebrow{
@@ -700,6 +701,8 @@ footer{
 /* ---- Steps (Cómo funciona nuestra IA) ---- */
 #como-funciona{
     background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .ia-steps-grid{
